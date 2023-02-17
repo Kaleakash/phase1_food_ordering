@@ -1,499 +1,506 @@
 const foodItem= [
     {
     id: 1,
-    name: 'Ambur Biryani',
-    category : 'biryani',
+    name: 'Cheese Burger',
+    category : 'Burger',
     rating : 4.3,
     price: 13,
-    img: 'images/biryani/Ambur-Chicken-Biryani.jpg',
+    img: 'images/Burger/Cheeseburger.jpg',
     quantity: 1
 },
 {
     id: 2,
-    name: 'Hyderabadi Biryani',
-    category : 'biryani',
+    name: 'Elk Burger',
+    category : 'Burger',
     rating : 4.3,
     price: 15,
-    img: 'images/biryani/Chicken-Biryani-hyd.jpg',
+    img: 'images/Burger/Elkburger.jpg',
     quantity: 1
 },
 {
     id: 3,
-    name: 'Egg Biryani',
-    category : 'biryani',
+    name: 'Ham Burger',
+    category : 'Burger',
     rating : 4.3,
     price: 18,
-    img: 'images/biryani/egg-biryani.jpeg',
+    img: 'images/Burger/Hamburger.jpg',
     quantity: 1
 },
 {
     id: 4,
-    name: 'Goan Fish Biryani',
-    category : 'biryani',
+    name: 'Porto bello mushroom Burger',
+    category : 'Burger',
     rating : 4.3,
     price: 15,
-    img: 'images/biryani/goan-fish-biryani.jpg',
+    img: 'images/Burger/Portobellomushroomburger.jpg',
     quantity: 1
 },
 {
     id: 5,
-    name: 'Mutton Biryani',
-    category : 'biryani',
+    name: 'Turkey Burger',
+    category : 'Burger',
     rating : 4.3,
     price: 10,
-    img: 'images/biryani/hyd-Mutton-Biryani.jpg',
+    img: 'images/Burger/Turkeyburger.jpg',
     quantity: 1
 },
 {
     id: 6,
-    name: 'Kamrupi Biryani',
-    category : 'biryani',
+    name: 'Veggie Burger',
+    category : 'Burger',
     rating : 4.3,
     price: 12,
-    img: 'images/biryani/kamrupi-biryani.jpg',
+    img: 'images/Burger/BreakfastBurrito.jpg',
     quantity: 1
 },
 {
     id: 7,
-    name: 'Kashmiri Biryani',
-    category : 'biryani',
+    name: 'Break Fast Burrito',
+    category : 'Burrito',
     rating : 4.3,
     price: 13,
-    img: 'images/biryani/kashmiri.pulao.jpg',
+    img: 'images/Burrito/Burrito.jpg',
     quantity: 1
 },
 {
     id: 8,
-    name: 'Memoni Biryani',
-    category : 'biryani',
+    name: 'Burrito',
+    category : 'Burrito',
     rating : 4.3,
     price: 20,
-    img: 'images/biryani/memonibiryani.png',
+    img: 'images/Burrito/CaliforniaBurrito.jpg',
     quantity: 1
 },
 {
     id: 9,
-    name: 'Mughlai Biryani',
-    category : 'biryani',
+    name: 'California Burrito',
+    category : 'Burrito',
     rating : 4.3,
     price: 15,
-    img: 'images/biryani/mughlai-biryani.jpg',
+    img: 'images/Burrito/CarneAsadaBurrito.jpg',
     quantity: 1
 },
 {
     id: 10,
-    name: 'Chicken Roast',
-    category : 'chicken',
+    name: 'Carne Asada Burrito',
+    category : 'Burrito',
     rating : 4.3,
     price: 11,
-    img: 'images/chicken/Chicken_roast.jpg',
+    img: 'images/Burrito/MildBreakfastBurrito.jpg',
     quantity: 1
 },
 {
     id: 11,
-    name: 'Chicken Curry',
-    category : 'chicken',
+    name: 'Mild Break fast Burrito',
+    category : 'Burrito',
     rating : 4.3,
     price: 10,
-    img: 'images/chicken/Chicken-Curry.jpg',
+    img: 'images/Burrito/BreakfastBurrito.jpg',
     quantity: 1
 },
 {
     id: 12,
-    name: 'Chicken Do Pyaza',
-    category : 'chicken',
+    name: 'Mission Burrito',
+    category : 'Burrito',
     rating : 4.3,
     price: 14,
-    img: 'images/chicken/Chicken-do-Pyaza.jpg',
+    img: 'images/Burrito/MissionBurrito.jpg',
     quantity: 1
 },
 {
     id: 13,
-    name: 'Chicken Masala',
-    category : 'chicken',
+    name: 'Baked Alaska Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 12,
-    img: 'images/chicken/Chicken-Masala.jpeg',
+    img: 'images/Desserts/BakedAlaskaCake.jpg',
     quantity: 1
 },
 {
     id: 14,
-    name: 'Handi Chicken',
-    category : 'chicken',
+    name: 'Blackout Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 17,
-    img: 'images/chicken/Handi-chicken.jpg',
+    img: 'images/Desserts/BlackoutCake.jpg',
     quantity: 1
 },
 {
     id: 15,
     name: 'Murgh Musallam',
-    category : 'chicken',
+    category : 'Desserts',
     rating : 4.3,
     price: 20,
-    img: 'images/chicken/Murgh-Musallam.jpg',
+    img: 'images/Desserts/BakedAlaskaCake.jpg',
     quantity: 1
 },
 {
     id: 16,
-    name: 'Matar Paneer',
-    category : 'paneer',
+    name: 'Caramel Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 15,
-    img: 'images/paneer/Matar-Paneer.jpg',
+    img: 'images/Desserts/CaramelCake.jpg',
     quantity: 1
 
 },
 {
     id: 17,
-    name: 'Palak Paneer',
-    category : 'paneer',
+    name: 'Ice box Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 10,
-    img: 'images/paneer/palak-paneer.jpg',
+    img: 'images/Desserts/IceboxCake.jpg',
     quantity: 1
 },
 {
     id: 18,
-    name: 'Paneer Butter Masala',
-    category : 'paneer',
+    name: 'Lady Baltimore Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 15,
-    img: 'images/paneer/paneer-butter-masala.jpg',
+    img: 'images/Desserts/LadyBaltimoreCake.jpg',
     quantity: 1
 
 },
 {
     id: 19,
-    name: 'Paneer Do Pyaza',
-    category : 'paneer',
+    name: 'Lane Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 12,
-    img: 'images/paneer/Paneer-Do-Pyaza.jpg',
+    img: 'images/Desserts/LaneCake.jpg',
     quantity: 1
 
 },
 {
     id: 20,
-    name: 'Hyderabadi Paneer',
-    category : 'paneer',
+    name: 'Meyer Lemon Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 8,
-    img: 'images/paneer/Paneer-Hyderabadi.jpg',
+    img: 'images/Desserts/StackCake.jpg',
     quantity: 1
 },
 {
     id: 21,
-    name: 'Paneer Lababdar',
-    category : 'paneer',
+    name: 'Stack Cake',
+    category : 'Desserts',
     rating : 4.3,
     price: 7,
-    img: 'images/paneer/paneer-lababdar.jpg',
+    img: 'images/Desserts/TexasSheetCake.jpg',
     quantity: 1
 },
 {
     id: 22,
-    name: 'Shahi Paneer',
-    age: '32',
-    category : 'paneer',
+    name: 'Boston Cream Doughnut',
+    category : 'Donuts',
     rating : 4.3,
     price: 5,
-    img: 'images/paneer/shahi-paneer.jpg',
+    img: 'images/Donuts/BostonCreamDoughnut.jpg',
     quantity: 1
 },
 {
     id: 23,
-    name: 'Navratan Korma',
-    category : 'vegetable',
+    name: 'Cake Donuts',
+    category : 'Donuts',
     rating : 4.3,
     price: 8,
-    img: 'images/vegetable/navratan-korma_-vegetable.png',
+    img: 'images/Donuts/CakeDonuts.jpg',
     quantity: 1
 },
 {
     id: 24,
-    name: 'Veg Jalfrezi',
-    category : 'vegetable',
+    name: 'Cream Filled Doughnut',
+    category : 'Donuts',
     rating : 4.3,
     price: 7,
-    img: 'images/vegetable/VEG-JALFREZI.jpg',
+    img: 'images/Donuts/CreamFilledDoughnut.jpg',
     quantity: 1
 },
 {
     id: 25,
-    name: 'Veg Biryani',
-    category : 'vegetable',
+    name: 'Donuts Holes',
+    category : 'Donuts',
     rating : 4.3,
     price: 5,
-    img: 'images/vegetable/vegetable-biryani.jpg',
+    img: 'images/Donuts/DonutsHoles.jpg',
     quantity: 1
 },
 {
     id: 26,
-    name: 'Veg Curry',
-    category : 'vegetable',
+    name: 'Glazed Doughnuts',
+    category : 'Donuts',
     rating : 4.3,
     price: 7,
-    img: 'images/vegetable/vegetable-curry.jpeg',
+    img: 'images/Donuts/GlazedDoughnuts.jpg',
     quantity: 1
 },
 {
     id: 27,
-    name: 'Veg Kolhapur',
-    category : 'vegetable',
+    name: 'Jelly Donuts',
+    category : 'Donuts',
     rating : 4.3,
     price: 10,
-    img: 'images/vegetable/vegetable-kolhapuri.jpg',
+    img: 'images/Donuts/JellyDonuts.jpg',
     quantity: 1
 },
 {
     id: 28,
-    name: 'Veg Masala',
-    category : 'vegetable',
+    name: 'Yeast Donuts',
+    category : 'Donuts',
     rating : 4.3,
     price: 4,
-    img: 'images/vegetable/vegetable-masala.jpg',
+    img: 'images/Donuts/YeastDonuts.jpg',
     quantity: 1
 },
 {
     id: 29,
-    name: 'Veg Pakora',
-    category : 'vegetable',
+    name: 'Bacon',
+    category : 'Pizza',
     rating : 4.3,
     price: 4,
-    img: 'images/vegetable/vegetable-pakora.jpg',
+    img: 'images/Pizza/bacon.jpg',
     quantity: 1
 },
 {
     id: 30,
-    name: 'Momos',
-    category : 'chinese',
+    name: 'Chillipaper',
+    category : 'Pizza',
     rating : 4.3,
     price: 8,
-    img: 'images/chinese/cabbage-momos-.jpg',
+    img: 'images/Pizza/chillipaper.jpg',
     quantity: 1
 },
 {
     id: 31,
-    name: 'Chicken Manchurian',
-    category : 'chinese',
+    name: 'Mozzarella',
+    category : 'Pizza',
     rating : 4.3,
     price: 7,
-    img: 'images/chinese/ChickenManchurian.jpg',
+    img: 'images/Pizza/mozzarella.jpg',
     quantity: 1
 },
 {
     id: 32,
-    name: 'Chili Chicken',
-    category : 'chinese',
+    name: 'Marinara',
+    category : 'Pizza',
     rating : 4.3,
     price: 5,
-    img: 'images/chinese/Chili-Chicken.jpg',
+    img: 'images/Pizza/marinara.jpg',
     quantity: 1
 },
 {
     id: 33,
-    name: 'Chowmein',
-    category : 'chinese',
+    name: 'Mexican',
+    category : 'Pizza',
     rating : 4.3,
     price: 16,
-    img: 'images/chinese/chowmin.jpg',
+    img: 'images/Pizza/mexican.jpg',
     quantity: 1
 },
 {
     id: 34,
-    name: 'Spring Roll',
-    category : 'chinese',
+    name: 'Mozzarella',
+    category : 'Pizza',
     rating : 4.3,
     price: 14,
-    img: 'images/chinese/spring-rolls.jpg',
+    img: 'images/Pizza/mozzarella.jpg',
     quantity: 1
 },
 {
     id: 35,
-    name: 'Szechuan Chicken',
-    category : 'chinese',
+    name: 'Mushroom',
+    category : 'Pizza',
     rating : 4.3,
     price: 10,
-    img: 'images/chinese/szechuan-chicken.jpg',
+    img: 'images/Pizza/mushroom.jpg',
     quantity: 1
 },
 {
     id: 36,
-    name: 'Fried Rice',
-    category : 'chinese',
+    name: 'Shirmp',
+    category : 'Pizza',
     rating : 4.3,
     price: 8,
-    img: 'images/chinese/veg-fried-rice.jpg',
+    img: 'images/Pizza/shirmp.jpg',
     quantity: 1
 },
 {
     id: 37,
-    name: 'Butter Masala Dosa',
-    category : 'south indian',
+    name: 'Vegetrain',
+    category : 'Pizza',
     rating : 4.3,
     price: 18,
-    img: 'images/south indian/Butter-Masala-Dosa.png',
+    img: 'images/Pizza/vegetrain.jpg',
     quantity: 1
 },
 {
     id: 38,
-    name: 'Idli',
-    category : 'south indian',
+    name: 'Caesar Salad',
+    category : 'Salad',
     rating : 4.3,
     price: 20,
-    img: 'images/south indian/idli-with-rice-flour.jpg',
+    img: 'images/Salad/CaesarSalad.jpg',
     quantity: 1
 },
 {
     id: 39,
-    name: 'Masala Dosa',
-    category : 'south indian',
+    name: 'Chef Salad',
+    category : 'Salad',
     rating : 4.3,
     price: 12,
-    img: 'images/south indian/masala-dosa.jpg',
+    img: 'images/Salad/ChefSalad.jpg',
     quantity: 1
 },
 {
     id: 40,
-    name: 'Mysore Bonda',
-    category : 'south indian',
+    name: 'Chinese Chicken Salad',
+    category : 'Salad',
     rating : 4.3,
     price: 10,
-    img: 'images/south indian/mysore-bonda.jpg',
+    img: 'images/Salad/ChineseChickenSalad.jpg',
     quantity: 1
 },
 {
     id: 41,
-    name: 'Onion Uttapam',
-    category : 'south indian',
+    name: 'Cobba Salad',
+    category : 'Salad',
     rating : 4.3,
     price: 15,
-    img: 'images/south indian/onion-uttapam.jpg',
+    img: 'images/Salad/CobbaSalad.jpg',
     quantity: 1
 },
 {
     id: 42,
-    name: 'Plain Dosa',
-    category : 'south indian',
+    name: 'Coleslaw',
+    category : 'Salad',
     rating : 4.3,
     price: 40,
-    img: 'images/south indian/plain-dosa.jpeg',
+    img: 'images/Salad/Coleslaw.jpg',
     quantity: 1
 },
 {
     id: 43,
-    name: 'Rava Uttapam',
-    category : 'south indian',
+    name: 'Frog Eye Salad',
+    category : 'Salad',
     rating : 4.3,
     price: 25,
-    img: 'images/south indian/Rava-Uttapam.jpg',
+    img: 'images/Salad/FrogEyeSalad.jpg',
     quantity: 1
 },
 {
     id: 44,
-    name: 'Bacon Pizza',
-    category : 'pizza',
+    name: 'Macaroni Salad',
+    category : 'Salad',
     rating : 4.7,
     price: 44,
-    img: 'images/pizza/bacon.jpg',
+    img: 'images/Salad/MacaroniSalad.jpg',
     quantity: 1
 },
 {
     id: 45,
-    name: 'Chillipaper Pizza',
-    category : 'pizza',
+    name: 'Chicken Sandwich',
+    category : 'Sandwich',
     rating : 4.6,
     price: 38,
-    img: 'images/pizza/chillipaper.jpg',
+    img: 'images/Sandwich/ChickenSandwich.jpg',
     quantity: 1
 },
 {
     id: 46,
-    name: 'Marinara Pizza',
-    category : 'pizza',
+    name: 'Egg Sandwich',
+    category : 'Sandwich',
     rating : 4.5,
     price: 39,
-    img: 'images/pizza/marinara.jpg',
+    img: 'images/Sandwich/EggSandwich.jpg',
     quantity: 1
 },
 {
     id: 47,
-    name: 'Mexican Pizza',
-    category : 'pizza',
+    name: 'Grilled Chicken Sandwich',
+    category : 'Sandwich',
     rating : 4.5,
     price: 42,
-    img: 'images/pizza/mexican.jpg',
+    img: 'images/Sandwich/GrilledChickenSandwich.jpg',
     quantity: 1
 },
 {
     id: 48,
-    name: 'Mozzarella Pizza',
-    category : 'pizza',
+    name: 'Ice Cream Sandwich',
+    category : 'Sandwich',
     rating : 4.6,
     price: 44,
-    img: 'images/pizza/mozzarella.jpg',
+    img: 'images/Sandwich/IceCreamSandwich.jpg',
     quantity: 1
 },
 {
     id: 49,
-    name: 'Mushroom Pizza',
-    category : 'pizza',
+    name: 'Meatball Sandwich',
+    category : 'Sandwich',
     rating : 4.3,
     price: 41,
-    img: 'images/pizza/mushroom.jpg',
+    img: 'images/Sandwich/MeatballSandwich.jpg',
     quantity: 1
 },
 {
     id: 50,
-    name: 'Shirmp Pizza',
-    category : 'pizza',
+    name: 'Nutella Sandwich',
+    category : 'Sandwich',
     rating : 4.4,
     price: 32,
-    img: 'images/pizza/shirmp.jpg',
+    img: 'images/Sandwich/NutellaSandwich.jpg',
     quantity: 1
 },
 {
     id: 51,
-    name: 'Vegetrain Pizza',
-    category : 'pizza',
+    name: 'Roast Beef Sandwich',
+    category : 'Sandwich',
     rating : 4.5,
     price: 37,
-    img: 'images/pizza/vegetrain.jpg',
+    img: 'images/Sandwich/RoastBeefSandwich.jpg',
     quantity: 1
 },
 {
     id: 44,
-    name: 'Sambhar Vada',
-    category : 'south indian',
+    name: 'Salmon Sandwich',
+    category : 'Sandwich',
     rating : 4.3,
     price: 34,
-    img: 'images/south indian/sambhar-vada.jpg',
+    img: 'images/Sandwich/SalmonSandwich.jpg',
     quantity: 1
 },
-
+{
+    id: 45,
+    name: 'Seafood Sandwich',
+    category : 'Sandwich',
+    rating : 4.3,
+    price: 34,
+    img: 'images/Sandwich/SeafoodSandwich.jpg',
+    quantity: 1
+},
 ]
 
 // Logic for items to display on the page
 function displayItems(){
-    var biryani= document.getElementById('biryani');
-    var paneer=  document.getElementById('paneer');;
-    var chicken=  document.getElementById('chicken');
-    var vegetable=  document.getElementById('vegetable');
-    var chinese=  document.getElementById('chinese');
-    var southIndian=  document.getElementById('south-indian');
-    var pizza = document.getElementById("pizza")
-    catList = [biryani,paneer,chicken,vegetable,chinese,southIndian,pizza]
+    var Burger= document.getElementById('Burger');
+    var Burrito=  document.getElementById('Burrito');;
+    var Desserts=  document.getElementById('Desserts');
+    var Donuts=  document.getElementById('Donuts');
+    var Pizza=  document.getElementById('Pizza');
+    var Salad=  document.getElementById('Salad');
+    var Sandwich = document.getElementById("Sandwich")
+    catList = [Burger,Burrito,Desserts,Donuts,Pizza,Salad,Sandwich]
+    
+    const burgerData= foodItem.filter((item)=>item.category=='Burger');
+    const burritoData= foodItem.filter((item)=>item.category=='Burrito');
+    const dessertsData= foodItem.filter((item)=>item.category=='Desserts');
+    const donutsData= foodItem.filter((item)=>item.category=='Donuts');
+    const pizzaData= foodItem.filter((item)=>item.category=='Pizza');
+    const saladData= foodItem.filter((item)=>item.category=='Salad');
+    const sandwichData = foodItem.filter((item)=>item.category=="Sandwich");
 
-    const biryaniData= foodItem.filter((item)=>item.category=='biryani');
-    const chickenData= foodItem.filter((item)=>item.category=='chicken');
-    const PaneerData= foodItem.filter((item)=>item.category=='paneer');
-    const vegetableData= foodItem.filter((item)=>item.category=='vegetable');
-    const chineseData= foodItem.filter((item)=>item.category=='chinese');
-    const southData= foodItem.filter((item)=>item.category=='south indian');
-    const pizzaData = foodItem.filter((item)=>item.category=="pizza");
-
-    [biryaniData,chickenData,PaneerData,vegetableData,chineseData,southData,pizzaData].forEach((foodCategory,idx) => {
+    [burgerData,burritoData,dessertsData,donutsData,saladData,pizzaData,sandwichData].forEach((foodCategory,idx) => {
         foodCategory.map(item=>{
         
             var itemCard= document.createElement('div');
@@ -520,8 +527,7 @@ function displayItems(){
     
             var itemName= document.createElement('p');
             itemName.setAttribute('id','item-name');
-            itemName.innerText= item.name;
-    
+            itemName.innerText= item.name; 
             var itemPrice= document.createElement('p');
             itemPrice.setAttribute('id','item-price');
             itemPrice.innerText= 'Price : $ ' + item.price;
@@ -530,7 +536,7 @@ function displayItems(){
             itemCard.appendChild(img);
             itemCard.appendChild(itemName);
             itemCard.appendChild(itemPrice);
-    
+           
            // alert(itemPrice);            
             catList[idx].appendChild(itemCard);
             
@@ -539,12 +545,12 @@ function displayItems(){
 }
 displayItems();
 
-const QuickNavigate= [...new Map(foodItem.map(item=> [item['category'],item])).values()];
+let QuickNavigate= [...new Map(foodItem.map(item=> [item['category'],item])).values()];
 console.log(QuickNavigate);
 // Logic to create navigate List for each category
 function selectTaste(){
     var categoryList= document.getElementById('category-list');
-
+    //QuickNavigate = QuickNavigate.map(item=>item.category.toLowerCase());
     QuickNavigate.map(item=>{
         console.log(item)
         var listCard= document.createElement('div');
@@ -556,6 +562,7 @@ function selectTaste(){
         var listName= document.createElement('a');
         listName.setAttribute('class','list-name');
         listName.innerText= item.category;
+        console.log(item.category);
         listName.setAttribute('href','#'+item.category)
     
         listCard.appendChild(listImg);
@@ -640,9 +647,9 @@ function cartItems(){
     rowFooter.innerHTML="&#36;"+totalPrice;
     tableBody.appendChild(rowFooter);
  }
-
+ //document.getElementById('list-card').addEventListener('click',cartToggle);
 document.getElementById('cart-plus').addEventListener('click',cartToggle);
-document.getElementById('cart-plus').addEventListener('click',cartToggle);
+//document.getElementById('cart-plus').addEventListener('click',cartToggle);
 
 var flag= false;
 function cartToggle(){
